@@ -2,7 +2,7 @@ export default {
   // Temp fonts Sansita Swashed, cursive
   fonts: {
     title: "Space Grotesk, sans-serif",
-    main: "Sansita Swashed, cursive"
+    main: "Barlow, sans-serif"
   },
   // Colors for layout
   colors: {
