@@ -1,0 +1,1 @@
+{"ast":null,"code":"import styled from 'styled-components';\nexport var Container = styled.div.withConfig({\n  displayName: \"LayoutStyles__Container\",\n  componentId: \"mzu455-0\"\n})([\"max-width:1280px;width:100%;margin:auto;\"]);","map":null,"metadata":{},"sourceType":"module"}
