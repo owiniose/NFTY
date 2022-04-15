@@ -40,10 +40,10 @@ const Header = () =>  (
         <SocialIcons href="https://google.com">
           <FaDiscord size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://twitter.com/NftyVacation">
           <AiFillTwitterCircle size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://google.com">
+        <SocialIcons href="https://instagram.con/nfty_vacation">
           <AiFillInstagram size="3rem"/>
         </SocialIcons>
       </Div3>

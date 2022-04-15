@@ -144,9 +144,9 @@ export const SectionTextTop = styled.h1`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 16px;
+    font-size: 40px;
     line-height: 24px;
-    padding-bottom: 16px;
+    padding-bottom: 1px;
 
   }
 `
@@ -166,7 +166,7 @@ export const SectionTextBottom = styled.h1`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 16px;
+    font-size: 36px;
     line-height: 24px;
     padding-bottom: 16px;
   }
@@ -192,9 +192,8 @@ font-weight: 800;
   }
 
   @media ${props => props.theme.breakpoints.sm}{
-    font-size: 32px;
     line-height: 40px;
-    font-size: ${(props) => props.main ? '28px' : '32px'};
+    font-size: ${(props) => props.main ? '48px' : '50px'};
     line-height: ${(props) => props.main ? '32px' : '40px'};
     margin-bottom: 8px;
     padding: ${(props) => props.main ? '6px 0 8px' : '0'};
@@ -348,15 +347,17 @@ export const ButtonBack = styled.div`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 50%;
+    width: 80%;
+    padding:5%;
     align-self: center;
-    height: 32px;
+    height: 50px;
     font-size: 14px;
     margin-bottom: ${({ alt }) => alt ? '0' : '32px'};
   }
 `
 
 export const ButtonFront = styled.button`
+
   border: none;
   border-radius: 10px;
   color: #fff;
@@ -398,7 +399,7 @@ export const ButtonFront = styled.button`
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    font-size: 14px;
+    font-size: 24px;    
   }
 `
 

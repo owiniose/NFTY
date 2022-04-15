@@ -155,6 +155,7 @@ margin-bottom: 8px;
 
 
 
+
  }
 `
 
@@ -176,7 +177,7 @@ export const ListItem = styled.li`
   margin-bottom: 14px;
   text-align:left;
   flex-direction: row;
-  background:  background: #03989e;
+  background: #03989e;
   padding:1em;
   border-radius: 11px;
   padding:1em;
@@ -199,6 +200,7 @@ export const ListItem2 = styled.li`
   margin-bottom: 14px;
   text-align:left;
   flex-direction: column;
+  max-width: 100%;
 }
 `
 

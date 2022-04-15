@@ -56,7 +56,7 @@ const connectWallet = async () => {
     }
     else
   return (
-    <Button  onClick={mint}> Mint </Button>
+    <Button > Mint </Button>
   )
 }
 
