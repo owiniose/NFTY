@@ -1,5 +1,5 @@
 import React from 'react'
-import Background from '../../../public/images/Background.png';
+import Background from '../../../public/images/background.png';
 import { Img } from './HeroImgStyles';
 
 
