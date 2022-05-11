@@ -23,11 +23,38 @@ export const ImageContainer = styled.div`
   }
 `
 
+export const SectionHow = styled.section`
+  display: ${(props) => props.grid ? "grid" : "flex" };
+  flex-direction: ${(props) => props.row ? "row" : "column" };
+  padding: ${(props) => props.nopadding ? "0" : "32px 48px 0 " } ;
+  margin: 20px auto;
+  max-width: 1040px;
+  box-sizing: content-box;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+  background-color : none;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 24px 48px 0;
+    flex-direction: column;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: ${(props) => props.nopadding ? "0" : "0 16px 0" } ;
+
+    width: calc(100vw - 32px);
+    flex-direction: column;
+    text-align: center;
+  }
+`
+
 export const MainImage = styled.img`
   width: 100%;
 `
 
 export const SectionAbout = styled.p`
+  color: black;
   max-width: 800px;
   font-size: 24px;
   line-height: 40px;
@@ -229,7 +256,7 @@ export const SectionWorks = styled.h3`
   font-size: ${(props) => props.main ? '75px' : '64px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   max-width: 100%;
-  background: white;
+  background: black;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;

@@ -1,12 +1,11 @@
 import styled from "styled-components"
 
 export const FooterWrapper = styled.section`
-	width: calc(100vw - 96px);
-  max-width: 1040px;
+	width:100%;
+
   padding: 2rem 48px 40px;
   margin: 1rem auto;
-  box-sizing: content-box;
-
+  box-sizing: border-box;
 
   @media ${props => props.theme.breakpoints.sm} {
     padding: 0 16px 48px;
@@ -17,7 +16,7 @@ export const FooterWrapper = styled.section`
 export const LinkItem = styled.a`
 	font-size: 18px;
 	line-height: 30px;
-	color: rgba(255, 255, 255, 0.75);
+	color: black;
 	margin-bottom: 16px;
 	transition: .3s ease;
 	position: relative;
@@ -148,7 +147,7 @@ export const LinkTitle = styled.h4`
 	font-size: 12px;
 	line-height: 24px;
 	text-transform: uppercase;
-	color: rgba(255, 255, 255, 0.4);
+	color: black;
 	margin-bottom: 16px;
 
 	@media ${props => props.theme.breakpoints.sm} {

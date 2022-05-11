@@ -67,9 +67,32 @@ export const List = styled.ul`
   }
   
   @media ${props => props.theme.breakpoints.sm}{
-    display: flex;
+    display: none;
     flex-direction: column;
     margin: 32px 0;
+  }
+`
+export const CarouselList = styled.ul`
+  list-style-type: none;
+  display: none;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin: 3rem 0;
+  
+  @media ${props => props.theme.breakpoints.lg}{
+    margin: 64px 0;
+  }
+
+  @media ${props => props.theme.breakpoints.md}{
+    margin: 64px 0;
+    gap: 24px
+  }
+  
+  @media ${props => props.theme.breakpoints.sm}{
+    display: flex;
+    flex-direction: column;
+  
+  
   }
 `
 
@@ -102,7 +125,7 @@ export const SectionTextWorks = styled.h3`
   font-size: ${(props) => props.main ? '75px' : '64px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   max-width: 100%;
-  background: black;
+  background: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
@@ -210,10 +233,10 @@ export const ListItem = styled.li`
 }
 
 @media ${props => props.theme.breakpoints.sm}{
-  margin-bottom: 14px;
+  margin-bottom: 34px;
   text-align:left;
   flex-direction: column;
-  max-width: 80%;
+  max-width: 95%;
 }
 `
 export const ListItem2 = styled.li`
@@ -249,4 +272,3 @@ display: block;
     margin-bottom: 0px;
   }
 `
-

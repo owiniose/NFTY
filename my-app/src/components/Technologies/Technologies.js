@@ -3,11 +3,11 @@ import { IoMdMailUnread,IoReceipt } from 'react-icons/io';
 import {FaGift, FaUserFriends, FaGlassCheers, FaCheck, FaAsterisk, FaCheckCircle } from 'react-icons/fa'
 import {GiBuyCard, GiClick } from 'react-icons/gi'
 
-import { Section, SectionDivider, SectionText, SectionTextWorks, SectionTechnologies } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle, SectionAbout, SectionWorks, ListItem2 } from './TechnologiesStyles';
+import {  SectionDivider  } from '../../styles/GlobalComponents';
+import { List, ListContainer, SectionHow,ListItem, ListParagraph, ListTitle, SectionAbout, SectionWorks, ListItem2 } from './TechnologiesStyles';
 
 const Technologies = () =>  (
-  <SectionTechnologies id="tech">
+  <SectionHow id="how">
     <SectionDivider divider />
     <SectionWorks>How It Works</SectionWorks>
     <SectionAbout>
@@ -21,7 +21,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Step One</ListTitle>
           <ListParagraph>
-            Mint Your <br />
+            Mint Your
             NFT
           </ListParagraph>
         </ListContainer>
@@ -107,8 +107,7 @@ const Technologies = () =>  (
                     Minimum is 4 day/3 nights                   </ListParagraph>
         <br/>
 </ListItem2>
-    <SectionDivider colorAlt />
-  </SectionTechnologies>
+  </SectionHow>
 );
 
 export default Technologies;

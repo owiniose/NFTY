@@ -2,6 +2,7 @@ import Acomplishments from '../components/Acomplishments/Acomplishments';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
 import HeroImg from '../components/HeroImg/HeroImg';
+import Itinerary from '../components/Itinerary/Itinerary';
 import Projects from '../components/Projects/Projects';
 import Team from '../components/Team/Team';
 import Technologies from '../components/Technologies/Technologies';
@@ -17,7 +18,7 @@ const Home = () => {
         <HeroImg/>
         {/* <BgAnimation /> */}
       </Section>
-      
+      <Itinerary/>
       <Technologies/>
       <Team/>
 
