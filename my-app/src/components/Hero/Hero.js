@@ -17,7 +17,7 @@ const Hero = (props) => (
         </SectionTextMain>
 
         <SectionTextBottom>
-           With $250 Only!
+           With $299 Only!
         </SectionTextBottom>
         <RenderButton/>
       </LeftSection>

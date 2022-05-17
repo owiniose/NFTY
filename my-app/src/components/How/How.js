@@ -8,7 +8,6 @@ import { List, ListContainer, SectionHow,ListItem, ListParagraph, ListTitle, Sec
 
 const How = () =>  (
   <SectionHow id="how">
-    <SectionDivider divider />
     <SectionWorks>How It Works</SectionWorks>
     <SectionAbout>
       It has never been easier to go on that magical Vacation. <br/> Just follow these easy steps

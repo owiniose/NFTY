@@ -25,8 +25,8 @@ const Itinerary = () => {
             <ListItem2>60 will be held by the team for giveaways and marketing.
             </ListItem2>
             <ListItem2>The first 3000 members on our “Early Check In” list will earn the 
-            early mint price of 0.1ETH (~$299USD)</ListItem2>
-            <ListItem2>The next 3000 Check Ins will mint at 0.15ETH (~$399USD)</ListItem2>
+            early mint price of $299 </ListItem2>
+            <ListItem2>The next 3000 Check Ins will mint at $399 </ListItem2>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -39,8 +39,7 @@ const Itinerary = () => {
           <ListParagraph>
               
 <ListItem2>          For every 1000 Check Ins, 2 lucky winners to receive up to an additional $1,500USD in airfare and expenses. (12 winners!)</ListItem2>
-<ListItem2>           Mint Out Bonus: 1 Grand Prize winner who will receive an all expense paid trip plus an additional 1ETH. ​</ListItem2>
-<br/>  
+<ListItem2>           Mint Out Bonus: 1 Grand Prize winner who will receive an all expense paid trip plus an additional 1ETH. ​</ListItem2> 
 
           </ListParagraph>
         </ListContainer2>

@@ -4,23 +4,26 @@ import { List, ListContainer, ListItem, ListParagraph,SectionTextWorks, ListTitl
 import TeamImg from '../TeamImg/TeamImg';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import ThonImg from '../TeamImg/ThonImg';
+import DubbsImg from '../TeamImg/DubbsImg';
+import { OwiniImg } from '../TeamImg/OwiniImg';
 
 const Team = () =>  (
   <SectionTeam id="team">
     <SectionDivider divider />
     <SectionTextWorks>Meet The Team</SectionTextWorks>
-    <SectionAbout>
+    {/* <SectionAbout>
       It has never been easier to go on that magical Vacation. <br/> Just follow these easy steps
-    </SectionAbout>
+    </SectionAbout> */}
     
     <CarouselList>
-      <Carousel showThumbs={false}  showIndicators={false} >
+      <Carousel showThumbs={false}  showIndicators={true} >
       <ListItem>
       
         
         <ListContainer>
        
-        <TeamImg/>
+        <ThonImg/>
           <ListTitle>Conor McClintock aka "Thonman"</ListTitle>
           <ListParagraph>
           Dad, Husband, proud Navy Veteran, Entrepreneur, 
@@ -37,7 +40,7 @@ const Team = () =>  (
       <ListItem>
       
         <ListContainer>
-        <TeamImg/>
+       <DubbsImg/>
           <ListTitle>Jarrett Wroten aka JWDubz</ListTitle>
           <ListParagraph>
           Built Internet Departments and optimized marketing for Automotive Dealerships from the ground up.
@@ -51,7 +54,7 @@ const Team = () =>  (
       
       
         <ListContainer>
-        <TeamImg/>
+        <OwiniImg/>
 
           <ListTitle>Daniel Owini aka OwiniOse</ListTitle>
           <ListParagraph>
@@ -73,7 +76,7 @@ const Team = () =>  (
         
         <ListContainer>
        
-        <TeamImg/>
+        <ThonImg/>
           <ListTitle>Conor McClintock aka "Thonman"</ListTitle>
           <ListParagraph>
           Dad, Husband, proud Navy Veteran, Entrepreneur, 
@@ -90,7 +93,7 @@ const Team = () =>  (
       <ListItem>
       
         <ListContainer>
-        <TeamImg/>
+        <DubbsImg/>
           <ListTitle>Jarrett Wroten aka JWDubz</ListTitle>
           <ListParagraph>
           Built Internet Departments and optimized marketing for Automotive Dealerships from the ground up.
@@ -104,7 +107,7 @@ const Team = () =>  (
       
       
         <ListContainer>
-        <TeamImg/>
+        <OwiniImg/>
 
           <ListTitle>Daniel Owini aka OwiniOse</ListTitle>
           <ListParagraph>
