@@ -2,6 +2,7 @@ import React from 'react';
 import { Section, SectionTextTop, SectionTextBottom, SectionTextMain } from '../../styles/GlobalComponents';
 import RenderButton from './RenderButton';
 import { LeftSection } from './HeroStyles';
+import RenderButton2 from './RenderButton2';
 
 
 
@@ -19,7 +20,7 @@ const Hero = (props) => (
         <SectionTextBottom>
            With $299 Only!
         </SectionTextBottom>
-        <RenderButton/>
+        <RenderButton2/>
       </LeftSection>
     </Section>
   </>
