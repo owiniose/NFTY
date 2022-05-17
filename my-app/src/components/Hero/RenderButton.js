@@ -10,14 +10,14 @@ const [ connectedWallet , setconnectedWallet] = useState (false);
 
 const web3ModalRef = useRef(); // always returns object as current
 
-const providerOptions = {
-  walletconnect: {
-    package: WalletConnectProvider,
-    options: {
-      infuraId: "c9fbeef25811469f95f260d96ccefbfe"
-    }
-  }
-};
+// const providerOptions = {
+//   walletconnect: {
+//     package: WalletConnectProvider,
+//     options: {
+//       infuraId: "c9fbeef25811469f95f260d96ccefbfe"
+//     }
+//   }
+// };
 
 
 
